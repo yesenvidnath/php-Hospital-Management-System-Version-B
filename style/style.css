@@ -1,0 +1,301 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+.navi-main-wrapper {
+    z-index: 9999;
+}
+
+.navi-main-wrapper .col-md-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navi-main-wrapper .col-md-5 ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+.navi-main-wrapper .col-md-5 ul li {
+    padding: 0 10px;
+}
+
+.navi-main-wrapper .col-md-5 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+img.d-inline-block.align-top {
+    width: auto;
+    height: auto;
+}
+
+nav .btn a{
+    text-decoration: none;
+}
+
+nav .btn a:hover{
+    color: white;
+}
+
+nav.container.navi-main-wrapper {
+    padding: 20px 0;
+    border-bottom: 1px rgb(243, 243, 243);
+    margin-bottom: -80px;
+}
+
+
+.hero-section-main-wrap{
+    background-image: url(/img/main-hero-back.png);
+    background-position: left top;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    padding: 5em 6em;
+}
+
+
+.hero-section-main-wrap h1{
+    font-size: 4em;
+    font-weight: 800;
+}
+
+.content-main-hero-custom-wrap {
+    position: relative;
+    top: 13em;
+    left: 8em;
+}
+
+
+.hero-section-main-wrap .md-6-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Cart Section Style start */
+
+
+.card-section{
+    padding: 5em 0;
+    background: #F1FAFC;
+}
+
+.card-section .card{
+    border: 0;
+    width: 80%;
+}
+
+.card-section .card-body{
+    padding: 1em 2em;
+    border: 0;
+}
+
+.card-section .card-body img {
+    position: relative;
+    top: -60px;
+}
+
+/* Card section style stop */
+
+
+.left-right-img-section {
+    padding: 5em 0;
+}
+
+.md-6-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.txt-wrap-main {
+    position: relative;
+    top: 10em;
+    left: 30px;
+}
+.txt-wrap-main h2{
+    font-size: 60px;
+}
+
+.txt-wrap-main p{
+    font-size: 20px;
+}
+
+
+/* Team Section style start */
+
+.team-section{
+    padding: 5em 0;
+    background: #F1FAFC;
+}
+
+.team-section{
+    padding: 5em 0;
+}
+
+.team-members-con{
+    padding: 0 6em !important;
+}
+
+.team-members-con .card{
+    border: none;
+    background: none;
+}
+
+.team-members-con .card-body{
+    background: white;
+    width: 92%;
+    position: relative;
+    left: 16px;
+    top: -50px;
+    border-radius: 15px;
+}
+
+.team-members-con .card-body ul{
+    display: flex;
+}
+
+.team-members-con .card-body ul li{
+    padding: 0 8px;
+}
+
+/* Team section style end */
+
+
+
+
+
+/* Testamonail sectiction style start */
+
+.testimonials-section{
+    padding: 5em 0;
+    
+}
+
+
+.testamonial-con .card{
+    background: #F1FAFC;
+    border: none;
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.25));
+}
+
+.testamonial-con .stars {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.testamonial-con .stars li {
+    margin-right: 5px;
+}
+
+.testamonial-con .stars li i {
+    color: #0099FF;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.testamonial-con .stars li:nth-child(n+2) i {
+    opacity: 0.6;
+}
+
+/* Testamonail sectiction style end */
+
+
+
+
+/* CTA Style Start */
+
+.cta-section{
+    margin: 5em 4em;
+    padding: 5em 0;
+    background: #333;
+    color: white;
+}
+
+/* CTA Style End */
+
+
+footer{
+    padding: 5em 0;
+    background: #F1FAFC;
+}
+
+.col-5 ul{
+    display: flex;
+    padding: 0 !important;
+    margin-top: 10px;
+}
+
+.col-5 ul li{
+    padding:0 15px;
+    background: white;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+
+footer ul {
+ text-decoration: none;
+ list-style: none;
+ padding: 0;
+}
+
+footer ul li{
+    line-height: 2;
+}
+
+footer img{
+    margin-bottom: 10px;
+}
+
+.col-4 input{
+    border: 0;
+    border-radius: 5px;
+    background: #494949;
+    color: white;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+}
+
+.col-4 .btn{
+    width: 40%;
+    padding: 12px 20px;
+}
+
+/*
+login page styles
+*/
+
+.img-left-side-log{
+    background-image: url(https://images.unsplash.com/photo-1515263487990-61b07816b324);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: 100vh;
+}
+
+.background-main-login .col-md-4{
+    margin-top: 5em;
+    padding: 5em 0;
+}
+
+form {
+    background: white;
+    position: relative;
+    padding: 20px 30px;
+    border-radius: 15px;
+    left: 20em;
+    top: 10em;
+    width: 50em;
+}

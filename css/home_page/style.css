@@ -1,0 +1,492 @@
+:root {
+  --min--fa--color:#ffffff;
+  --nav--color: #898d8e;
+  --nav--active: #e9f2f5;
+  --nav--font: #ffffff;
+  --nav--font-sec: #000000;
+  --head--color:#5ec0ee;
+  --bg--color:#ffffff;
+  --lan--top--back:#f3f3f3;
+  --lan--font--color:#5d5d5d;
+  --lan--back:#f6f6f6;
+  --lan-hover:#0387d3;
+  --footer--back:#000000;
+  --footer--font: #ffffff;
+}
+
+body {
+  margin: 0;
+  color: var(--bg--color);
+  font-family: "poppins";
+}
+
+section.nav-section {
+  background: var(--footer--back);
+  z-index: 9999;
+  position: relative;
+}
+section.nav-section .logo-img {
+  width: 5%;
+  padding: 10px 0;
+}
+section.nav-section .container-fluid {
+  padding-left: 20px;
+}
+section.nav-section .container-fluid .navbar-main-padding {
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 0 !important;
+  letter-spacing: 1.5px;
+  font-weight: 300;
+}
+section.nav-section .container-fluid .navbar-main-padding .navbar-nav .nav-link {
+  margin-left: 10px;
+  padding: 30px 10px;
+  color: var(--nav--font) !important;
+}
+section.nav-section .container-fluid .navbar-main-padding .navbar-nav .nav-link:hover, section.nav-section .container-fluid .navbar-main-padding .navbar-nav .nav-link :active {
+  color: var(--nav--font-sec) !important;
+  background: var(--nav--active);
+}
+section.nav-section .login-btn {
+  padding: 5px 50px;
+  border-radius: 5px;
+  background: #5bb9e6;
+  border: none;
+  color: black;
+  font-weight: 400;
+  width: 10% !important;
+}
+
+section.hero-section {
+  min-height: 100vh;
+}
+section.hero-section .bg-img .main-head-img {
+  width: 100%;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.hero-section .bg-img .text-secion-main {
+  background: rgba(0, 0, 0, 0.7803921569);
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 392px 30px;
+  letter-spacing: 3px;
+  font-family: Athelas;
+  text-transform: uppercase;
+  height: 90vh;
+  z-index: 10;
+}
+section.hero-section .bg-img .text-secion-main h2 {
+  color: var(--min--fa--color);
+  font-size: 89px;
+}
+section.hero-section .bg-img .text-secion-main h3 {
+  color: var(--head--color);
+  font-size: 54px;
+}
+
+section.our-teams-section .container-fluid {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+section.our-teams-section .container-fluid .text-section {
+  text-align: center;
+}
+section.our-teams-section .container-fluid .text-section h2 {
+  position: relative;
+  line-height: 1.2em;
+  color: var(--head--color);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 1.5px;
+}
+section.our-teams-section .container-fluid .text-section h2:before {
+  position: absolute;
+  left: 36%;
+  top: 1.2em;
+  height: 0;
+  width: 29%;
+  content: "";
+  border-top: 1px solid var(--head--color);
+}
+section.our-teams-section .container-fluid .text-section p {
+  margin-top: 60px;
+  color: var(--nav--font-sec);
+  padding: 0px 10px;
+  font-size: 24.9px;
+  line-height: 1;
+}
+section.our-teams-section .container-fluid .card-section {
+  padding: 2em 5em 5em 5em;
+}
+section.our-teams-section .container-fluid .card-section .container-fluid .row .col-style-main {
+  padding: 0 2.5em;
+}
+section.our-teams-section .container-fluid .card-section .container-fluid .row .col-style-main .card {
+  font-family: "Myriad Pro";
+  text-align: center;
+  color: var(--nav--font-sec);
+  border: none;
+  border-radius: 0;
+}
+section.our-teams-section .container-fluid .card-section .container-fluid .row .col-style-main .card .card-title {
+  padding: 26px;
+}
+
+section.footer-section footer {
+  background: var(--footer--back);
+}
+section.footer-section footer p {
+  color: var(--footer--font);
+  padding: 24px 0px 5px 80px;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+  section.nav-section .container-fluid {
+    padding-left: 20px;
+  }
+  section.nav-section .container-fluid .navbar-main-padding {
+    font-size: 0.9em;
+  }
+  section.nav-section .container-fluid .navbar-main-padding .navbar-nav .nav-link {
+    padding: 20px 10px;
+  }
+  section.hero-section {
+    min-height: 100vh;
+  }
+  section.hero-section .bg-img .text-secion-main {
+    padding: 50px 30px;
+    bottom: -2px;
+    right: 0px;
+    padding: 236px 30px;
+    height: 90vh;
+  }
+  section.hero-section .bg-img .text-secion-main h2 {
+    font-size: 75px;
+  }
+  section.hero-section .bg-img .text-secion-main h3 {
+    font-size: 45px;
+  }
+  section.our-teams-section .container-fluid {
+    margin-top: 5em;
+  }
+  section.our-teams-section .container-fluid .text-section h2:before {
+    left: 28%;
+    top: 1.2em;
+    height: 0;
+    width: 44%;
+  }
+  section.our-teams-section .card-section {
+    padding: 2em 5em 5em 5em;
+  }
+  section.our-teams-section .card-section .container-fluid .row .col-style-main {
+    padding: 0 2.5em;
+  }
+  section.our-teams-section .card-section .container-fluid .row .col-style-main .card {
+    font-family: "Myriad Pro";
+    text-align: center;
+    color: var(--nav--font-sec);
+    border: none;
+    border-radius: 0;
+  }
+  section.our-teams-section .card-section .container-fluid .row .col-style-main .card .card-title {
+    padding: 26px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  section.top-section .contain-section .comp-name {
+    padding: 25px 0 10px 50px;
+    text-align: center;
+  }
+  section.top-section .contain-section .comp-name a {
+    font-size: 1.5em;
+  }
+  section.nav-section {
+    background: var(--bg--color);
+  }
+  section.nav-section .container-fluid {
+    padding: 10px 0;
+  }
+  section.nav-section .container-fluid .navbar-toggler {
+    border-radius: 2px;
+    margin-bottom: 2px;
+  }
+  section.nav-section .container-fluid .navbar-toggler:focus {
+    border: none;
+    box-shadow: none !important;
+    background: rgba(10, 10, 10, 0.2470588235);
+  }
+  section.nav-section .container-fluid .navbar-collapse {
+    background: var(--footer--back);
+  }
+  section.hero-section {
+    min-height: 100vh;
+  }
+  section.hero-section .bg-img {
+    min-height: 693px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  section.hero-section .bg-img .text-secion-main {
+    background: rgba(0, 0, 0, 0.7803921569);
+    position: relative;
+    top: 30.8em;
+    bottom: 0;
+    right: 0;
+    padding: 50px 30px;
+  }
+  section.hero-section .bg-img .text-secion-main h2 {
+    font-size: 45px;
+    text-align: center;
+  }
+  section.hero-section .bg-img .text-secion-main h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+  section.our-teams-section .container-fluid {
+    margin-top: 5em;
+    margin-bottom: 3em;
+  }
+  section.our-teams-section .container-fluid .text-section {
+    text-align: center;
+  }
+  section.our-teams-section .container-fluid .text-section h2 {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 40px;
+  }
+  section.our-teams-section .container-fluid .text-section h2:before {
+    position: absolute;
+    left: 36%;
+    top: 1.4em;
+    height: 0;
+    width: 29%;
+    content: "";
+    border-top: 1px solid var(--head--color);
+  }
+  section.our-teams-section .container-fluid .text-section p {
+    margin-top: 60px;
+    color: var(--nav--font-sec);
+    padding: 0 10px;
+  }
+  section.our-teams-section .container-fluid .card-section {
+    padding: 1em 0;
+  }
+  section.our-teams-section .container-fluid .card-section .container-fluid .row .col-style-main {
+    padding: 0 2.5em;
+  }
+  section.our-teams-section .container-fluid .card-section .container-fluid .row .col-style-main .card {
+    color: var(--bg--color);
+    padding: 0 0 30px 0;
+    background: var(--nav--font-sec);
+    margin-bottom: 20px;
+  }
+  section.our-teams-section .container-fluid .card-section .container-fluid .row .col-style-main .card img {
+    width: 100%;
+  }
+  section.our-teams-section .container-fluid .card-section .container-fluid .row .col-style-main .card .bottom-half .bg-color-bottom-half {
+    background: var(--lan--back);
+    padding: 0 20px 20px 20px;
+  }
+  section.our-teams-section .container-fluid .card-section .container-fluid .row .col-style-main .card .bottom-half .card-title {
+    padding: 26px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+  section.nav-section {
+    background: var(--bg--color);
+  }
+  section.nav-section .container-fluid {
+    padding: 10px 0;
+  }
+  section.nav-section .container-fluid .navbar-toggler {
+    border-radius: 2px;
+    margin-bottom: 2px;
+  }
+  section.nav-section .container-fluid .navbar-toggler:focus {
+    border: none;
+    box-shadow: none !important;
+    background: rgba(10, 10, 10, 0.2470588235);
+  }
+  section.nav-section .container-fluid .navbar-collapse {
+    background: var(--footer--back);
+  }
+  section.hero-section {
+    min-height: 100vh;
+  }
+  section.hero-section .bg-img {
+    min-height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  section.hero-section .bg-img .text-secion-main {
+    background: rgba(0, 0, 0, 0.7803921569);
+    position: relative;
+    top: 20em;
+    bottom: 3;
+    right: 0;
+    padding: 50px 30px;
+  }
+  section.hero-section .bg-img .text-secion-main h2 {
+    font-size: 45px;
+    text-align: center;
+  }
+  section.hero-section .bg-img .text-secion-main h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+  section.our-teams-section .container-fluid {
+    margin-bottom: 3em;
+  }
+  section.our-teams-section .container-fluid .text-section {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  section.our-teams-section .container-fluid .text-section h2 {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 40px;
+  }
+  section.our-teams-section .container-fluid .text-section h2:before {
+    position: absolute;
+    left: 36%;
+    top: 1.4em;
+    height: 0;
+    width: 29%;
+    content: "";
+    border-top: 1px solid var(--head--color);
+  }
+  section.our-teams-section .container-fluid .text-section p {
+    margin-top: 60px;
+    color: var(--nav--font-sec);
+    padding: 0 10px;
+  }
+  section.our-teams-section .container-fluid .card-section {
+    padding: 1em 0;
+  }
+  section.our-teams-section .container-fluid .card-section .container-fluid .row .col-style-main {
+    padding: 0.55em;
+  }
+  section.our-teams-section .container-fluid .card-section .container-fluid .row .col-style-main .card {
+    color: var(--bg--color);
+    padding: 0 0 30px 0;
+    background: var(--nav--font-sec);
+    margin-bottom: 20px;
+  }
+  section.our-teams-section .container-fluid .card-section .container-fluid .row .col-style-main .card img {
+    width: 100%;
+  }
+  section.our-teams-section .container-fluid .card-section .container-fluid .row .col-style-main .card .bottom-half {
+    padding: 0 10px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  section.top-section .contain-section .comp-name {
+    padding: 15px 0 0 100px;
+    text-align: center;
+  }
+  section.top-section .contain-section .comp-name a {
+    font-size: 1.5em;
+  }
+  section.nav-section {
+    background: var(--bg--color);
+  }
+  section.nav-section .container-fluid {
+    padding: 10px 0;
+  }
+  section.nav-section .container-fluid .navbar-toggler {
+    border-radius: 2px;
+    margin-bottom: 2px;
+  }
+  section.nav-section .container-fluid .navbar-toggler:focus {
+    border: none;
+    box-shadow: none !important;
+    background: rgba(10, 10, 10, 0.2470588235);
+  }
+  section.nav-section .container-fluid .navbar-collapse {
+    background: var(--footer--back);
+  }
+  section.hero-section {
+    min-height: 100vh;
+  }
+  section.hero-section .bg-img {
+    min-height: 77vh;
+    width: 100%;
+    background-position: center;
+  }
+  section.hero-section .bg-img .text-secion-main {
+    position: inherit;
+    padding: 50px 30px;
+    width: 100%;
+    height: 77vh;
+  }
+  section.hero-section .bg-img .text-secion-main h2 {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 220px;
+  }
+  section.hero-section .bg-img .text-secion-main h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+  section.our-teams-section {
+    margin-top: 10px;
+    margin-bottom: 3em;
+  }
+  section.our-teams-section .container-fluid .text-section h2 {
+    position: relative;
+    font-size: 30px;
+  }
+  section.our-teams-section .container-fluid .text-section h2:before {
+    position: absolute;
+    left: 36%;
+    top: 1.6em;
+    height: 0;
+    width: 29%;
+    content: "";
+    border-top: 1px solid var(--head--color);
+  }
+  section.our-teams-section .container-fluid .text-section p {
+    margin-top: 60px;
+    color: var(--nav--font-sec);
+    padding: 0 25px;
+  }
+  section.our-teams-section .container-fluid .card-section {
+    padding: 1em 0;
+  }
+  section.our-teams-section .container-fluid .card-section .container-fluid .row .col-style-main {
+    padding: 0 2.5em;
+  }
+  section.our-teams-section .container-fluid .card-section .container-fluid .row .col-style-main .card {
+    color: var(--bg--color);
+    padding: 0 0 30px 0;
+    background: var(--nav--font-sec);
+    margin-bottom: 20px;
+  }
+  section.our-teams-section .container-fluid .card-section .container-fluid .row .col-style-main .card img {
+    width: 100%;
+  }
+  section.our-teams-section .container-fluid .card-section .container-fluid .row .col-style-main .card .bottom-half {
+    padding: 0 10px;
+  }
+  section.our-teams-section .container-fluid .card-section .container-fluid .row .col-style-main .card .bottom-half .card-title {
+    padding: 26px;
+  }
+  section.footer-section footer p {
+    padding: 24px 0px 5px 80px;
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=style.css.map */
